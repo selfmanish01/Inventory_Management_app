@@ -24,7 +24,7 @@ It provides features for tracking products, managing stock levels, generating re
 2. Navigate to the project directory:
 
    ```bash
-   cd inventory-management
+   cd Inventory_Management_app
    ```
 
 3. Install dependencies:
