@@ -1,8 +1,15 @@
+
+
 const asyncHandler = require("express-async-handler");
 const Product = require("../models/productModel");
 const { fileSizeFormatter } = require("../utils/fileUpload");
 const cloudinary = require("cloudinary").v2;
 
+cloudinary.config({
+  cloud_name: 'dr3picmhf',
+  api_key: '897699713859382',
+  api_secret: 'kt98svT9_iTw5Mz6yG3ysBofq8k'
+});
 // Create Prouct
 const createProduct = asyncHandler(async (req, res) => {
   const { name, sku, category, quantity, price, description } = req.body;
