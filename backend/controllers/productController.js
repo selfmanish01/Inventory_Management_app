@@ -8,7 +8,7 @@ cloudinary.config({
   api_key: '687773451488953',
   api_secret: 'lXGzNZi5lcZvNKnFi6lczLQSL8s'
 });
-
+//my
 // Create Prouct
 const createProduct = asyncHandler(async (req, res) => {
 const { name, sku, category, quantity, price, description } = req.body;
