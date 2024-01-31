@@ -28,6 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5%;
 }
 
 .hero-text {
@@ -45,6 +46,10 @@
 }
 .hero-image {
   width: 50%;
+}
+.imga{
+  width: 100%;
+  height: auto;
 }
 @media screen and (max-width: 600px) {
   .hero {

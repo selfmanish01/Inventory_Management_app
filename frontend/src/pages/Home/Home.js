@@ -1,8 +1,8 @@
 import React from "react";
-import { RiProductHuntLine } from "react-icons/ri";
+import {FaClipboardList} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Home.scss";
-import heroImg from "../../assets/inv-img.png";
+import heroImg from "../../assets/InventoryTracker_BgImage.png";
 import { ShowOnLogin, ShowOnLogout } from "../../components/protect/HiddenLink";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          <FaClipboardList size={35} />
         </div>
 
         <ul className="home-links">
@@ -35,28 +35,28 @@ const Home = () => {
           </ShowOnLogin>
         </ul>
       </nav>
+      
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Stock Management Solution</h2>
+          <h2>InventoryTracker- Stock Management Solution</h2>
           <p>
-            Inventory system to control and manage proucts in the warehouse in
-            real timeand integrated to make it easier to develop your business.
+          iTrack Web App provide businesses with a secure and user-friendly platform for efficient stock control, enabling product management, and informed decision-making.
           </p>
           <div className="hero-buttons">
             <button className="--btn --btn-secondary">
-              <Link to="/dashboard">Free Trial 1 Month</Link>
+              <Link to="/dashboard">Try for Free</Link>
             </button>
           </div>
           <div className="--flex-start">
-            <NumberText num="14K" text="Brand Owners" />
-            <NumberText num="23K" text="Active Users" />
-            <NumberText num="500+" text="Partners" />
+            <NumberText num="2" text="Brand Owners" />
+            <NumberText num="10" text="Active Users" />
+            <NumberText num="10+" text="Partners" />
           </div>
         </div>
 
         <div className="hero-image">
-          <img src={heroImg} alt="Inventory" />
+          <img className="imga" src={heroImg} alt="Inventory" />
         </div>
       </section>
     </div>

@@ -63,7 +63,7 @@ const Contact = () => {
             <div className="icons">
               <span>
                 <FaPhoneAlt />
-                <p>+917261088214</p>
+                <p>+917261088214, +919161671125</p>
               </span>
               <span>
                 <FaEnvelope />
@@ -71,7 +71,7 @@ const Contact = () => {
               </span>
               <span>
                 <GoLocation />
-                <p>Manish Kumar Prajapati</p>
+                <p>Manish Kumar, Aditya Maurya</p>
               </span>
               <span>
                 <FaTwitter />
